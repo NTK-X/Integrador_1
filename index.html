@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./Assets/style/style.css" />
+	<!-- <link rel="stylesheet" href="./Assets/style/logreg.css"> -->
 	<link rel="stylesheet" href="./Assets/style/transition.css" />
 	<link rel="stylesheet" href="./Assets/style/media.css" />
 	<script src="https://kit.fontawesome.com/098066a46a.js" crossorigin="anonymous"></script>
@@ -20,23 +21,23 @@
 			<img src="./Assets/img/navbar/Logo.png" alt="logo" class="logo" />
 			<nav class="navbar">
 				<ul class="navbar__navbar-list">
-					<li><a href="#">Portada</a></li>
-					<li><a href="#">Sobre Nosotros</a></li>
-					<li><a href="#">Porque Elegirnos</a></li>
-					<li><a href="#">Categorias</a></li>
+					<li><a href="#portada">Portada</a></li>
+					<li><a href="#about">Sobre Nosotros</a></li>
+					<li><a href="#why">Porque Elegirnos</a></li>
+					<li><a href="#categ">Categorias</a></li>
 				</ul>
 				<ul class="navbar__navbar-icons">
 					<li>
-						<a href="#"><i class="fa-solid fa-house"></i></a>
+						<a href="#portada"><i class="fa-solid fa-house"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa-solid fa-pen-nib"></i></a>
+						<a href="./Assets/pages/register.html"><i class="fa-solid fa-pen-nib"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa-solid fa-user"></i></a>
+						<a href="./Assets/pages/login.html"><i class="fa-solid fa-user"></i></a>
 					</li>
 					<li>
-						<a href="#"><i class="fa-solid fa-envelope"></i></a>
+						<a href="#contact"><i class="fa-solid fa-envelope"></i></a>
 					</li>
 					<li>
 						<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -80,25 +81,29 @@
 				distinctio magnam? Error quae possimus ut?</p>
 		</section>
 
-<!-- *Por que Nosotros? -->
-	
+		<!-- *Por que Nosotros? -->
+
 		<section id="why">
 			<h2>Ahora... Por Que Me gustaria Adornarte?</h2>
 			<div class="why__content">
 				<div class="why__content__card">
 					<i class="fa-solid fa-barcode"></i>
 					<h3>Hilo</h3>
-					<p>Lorem, ipsum dolor.</p>
+					<p>Las prendas son realizadas con hilo de calidad triple A, es de cobre revestido con plata y
+						protejidos con polímeros antialérgicos que garantiza su uso en todo tipo de piel.</p>
 				</div>
 				<div class="why__content__card">
 					<i class="fa-solid fa-gem"></i>
 					<h3>Piedras</h3>
-					<p>Lorem ipsum dolor sit.</p>
+					<p>Para completar nuestros proyectos de prendas artesanales utilizamos, gran variedad de cristales,
+						piedras semipreciosas, perlas, corales y otros elementos decorativos que realzan la belleza de
+						cada creación.</p>
 				</div>
 				<div class="why__content__card">
 					<i class="fa-solid fa-gear"></i>
 					<h3>Dedicacion</h3>
-					<p>Lorem ipsum dolor sit.</p>
+					<p>Cada proyecto es pensado en el realce de la belleza innata de cada cliente, cada pieza es
+						especial y personalizada hecha con la pasión que da el amor por lo que se hace.</p>
 				</div>
 			</div>
 		</section>
@@ -110,39 +115,51 @@
 						alt="">
 					<h3>Aros y Zarcillos</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis?</p>
-					<a href="#">Consultar</a>
+					<a href="#contact">Consultar</a>
 				</div>
 				<div class="categ__content__card">
 					<img src="./Assets/img/Página web-20221121T175328Z-001/Página web/Collage/20221101_004712.jpg"
 						alt="">
 					<h3>Anillos</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis?</p>
-					<a href="#">Consultar</a>
+					<a href="#contact">Consultar</a>
 				</div>
 				<div class="categ__content__card">
 					<img src="./Assets/img/Hero/Árbol de la vida1.jpg" alt="">
 					<h3>Collares</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis?</p>
-					<a href="#">Consultar</a>
+					<a href="#contact">Consultar</a>
 				</div>
 				<div class="categ__content__card">
 					<img src="./Assets/img/Página web-20221121T175328Z-001/Página web/Collage/20221101_004445.jpg"
 						alt="">
 					<h3>Pulseras</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis?</p>
-					<a href="#">Consultar</a>
+					<a href="#contact">Consultar</a>
 				</div>
 				<div class="categ__content__card">
 					<img src="./Assets/img/Página web-20221121T175328Z-001/Página web/Conjunto tejido en hilo azul y perlas.jpg"
 						alt="">
 					<h3>Juegos</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, reiciendis?</p>
-					<a href="#">Consultar</a>
+					<a href="#contact">Consultar</a>
 				</div>
 			</div>
 		</section>
 		<section id="contact">
-
+			
+				<form class="contact__content">
+				<h2>Me Encantaria Saber de Ti</h2>
+				<!-- Nombre -->
+				<input type="text" placeholder="Nombre" class="contact__content__form" />
+				<!-- Email -->
+				<input type="email" placeholder="Email" class="contact__content__form" />
+				<!-- Phone-->
+				<input type="text" placeholder="Telefono" class="contact__content__form" />
+				<input type="text" placeholder="Telefono" class="contact__content__form" />
+				<a href="/index.html">Enviar</a>
+			</form>
+		
 		</section>
 	</main>
 	<section id="footer"></section>
