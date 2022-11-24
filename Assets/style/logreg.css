@@ -1,0 +1,25 @@
+
+
+
+
+
+
+.form__container {
+    /* border: 2px solid lawngreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+  }
+  
+  .form__input {
+    font-size: 30px;
+    padding: 15px 35px 15px 15px;
+    border-radius: 8px;
+    background-color:#e5a6e3;
+    color:#3a013a;
+    outline: none;
+    border: none;
+  }
