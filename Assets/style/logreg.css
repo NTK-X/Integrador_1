@@ -1,5 +1,7 @@
 
-
+main {
+    background-image: url(../img/Imagenes_Integrador/bglog.jpg);
+}
 
 
 
@@ -10,16 +12,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     height: 100vh;
+    outline: 8px ridge #aa32dc99; 
   }
   
   .form__input {
     font-size: 30px;
-    padding: 15px 35px 15px 15px;
-    border-radius: 8px;
+    padding: 15px;
+    border-radius: 10px;
     background-color:#e5a6e3;
     color:#3a013a;
-    outline: none;
+    outline: 8px ridge #aa32dc99;    
+    border-radius: 10px;;
     border: none;
   }
