@@ -15,8 +15,8 @@
     transition: all 0.2s ease-out;
 transform: scale3d();
 }
-.fa-list {
-    display:inline-block;
+.menu i{
+    display:block;
     justify-content: flex-end;
     color:#6f056f ;
 }
